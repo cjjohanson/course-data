@@ -1,0 +1,46 @@
+product_id,product_name,category,price,in_stock
+1,Wireless Mouse,Electronics,24.99,120
+2,Mechanical Keyboard,Electronics,89.99,45
+3,USB-C Charging Cable,Electronics,12.50,300
+4,Wireless Headphones,Electronics,149.99,30
+5,27-inch Monitor,Electronics,219.00,15
+6,Stainless Water Bottle,Home,19.95,200
+7,Ceramic Coffee Mug,Home,11.00,180
+8,Cotton Throw Blanket,Home,39.99,60
+9,Desk Lamp,Home,34.50,75
+10,Notebook (3-pack),Office,14.99,250
+11,Gel Pens (12-pack),Office,8.49,400
+12,Ergonomic Office Chair,Office,189.00,12
+13,Standing Desk Converter,Office,129.99,22
+14,Wireless Charging Pad,Electronics,29.99,90
+15,Bluetooth Speaker,Electronics,45.00,55
+16,Laptop Stand,Electronics,39.99,85
+17,HDMI Cable,Electronics,9.99,350
+18,Webcam 1080p,Electronics,59.99,40
+19,USB Microphone,Electronics,79.99,35
+20,Portable SSD 1TB,Electronics,109.99,28
+21,Noise Cancelling Earbuds,Electronics,129.99,50
+22,Smart LED Light Strip,Electronics,27.99,95
+23,Wireless Presenter Remote,Electronics,21.99,60
+24,Phone Tripod,Electronics,18.99,110
+25,Scented Candle Set,Home,16.50,140
+26,Throw Pillow (2-pack),Home,24.99,90
+27,Wall Clock,Home,22.00,70
+28,Picture Frame Set,Home,18.75,120
+29,Area Rug 5x7,Home,89.00,25
+30,Blackout Curtains,Home,45.99,55
+31,Essential Oil Diffuser,Home,32.99,65
+32,Sticky Notes (12-pack),Office,6.99,500
+33,Desk Organizer,Office,23.50,130
+34,Whiteboard 24x36,Office,42.00,45
+35,Paper Shredder,Office,64.99,20
+36,Printer Paper (500 sheets),Office,11.25,400
+37,Fountain Pen,Office,28.00,75
+38,Monitor Stand with Drawer,Office,36.99,50
+39,Cast Iron Skillet,Kitchen,34.99,80
+40,Chef Knife 8-inch,Kitchen,49.99,60
+41,Cutting Board Set,Kitchen,26.99,100
+42,French Press,Kitchen,29.95,70
+43,Electric Kettle,Kitchen,39.95,55
+44,Yoga Mat,Fitness,25.99,120
+45,Adjustable Dumbbell Pair,Fitness,149.00,18
