@@ -1,0 +1,46 @@
+customer_id,first_name,last_name,email,city,state,signup_date
+1,Maria,Gomez,maria.g@gmail.com,Los Angeles,CA,2024-01-15
+2,James,Chen,jchen@yahoo.com,Austin,TX,2024-02-03
+3,Aisha,Patel,aisha.p@gmail.com,San Diego,CA,2025-02-20
+4,David,Okafor,dokafor@outlook.com,Portland,OR,2025-03-11
+5,Sarah,Johnson,,Seattle,WA,2024-11-30
+6,Luis,Ramirez,luisr@yahoo.com,San Jose,CA,2025-01-08
+7,Emily,Nguyen,emily.n@gmail.com,Dallas,TX,2025-04-22
+8,Kwame,Mensah,kmensah@gmail.com,Los Angeles,CA,2025-05-17
+9,Hannah,Kim,,Portland,OR,2024-09-05
+10,Diego,Torres,diegot@yahoo.com,Sacramento,CA,2025-06-01
+11,Priya,Shah,priya.shah@gmail.com,Phoenix,AZ,2024-06-18
+12,Marcus,Lee,marcus.lee@outlook.com,Denver,CO,2025-01-25
+13,Nina,Rossi,nina.rossi@yahoo.com,Miami,FL,2025-03-30
+14,Tom,Baker,tbaker@gmail.com,Chicago,IL,2024-04-12
+15,Grace,Liu,grace.liu@gmail.com,San Francisco,CA,2024-08-09
+16,Olivia,Brown,olivia.b@gmail.com,New York,NY,2023-11-02
+17,Ethan,Wright,ethan.w@yahoo.com,Brooklyn,NY,2024-03-19
+18,Zoe,Martin,zoe.martin@gmail.com,Atlanta,GA,2024-05-27
+19,Omar,Haddad,omar.h@outlook.com,Houston,TX,2024-07-14
+20,Chloe,Dubois,chloe.d@gmail.com,Boston,MA,2023-09-08
+21,Ravi,Kumar,ravi.kumar@yahoo.com,San Jose,CA,2024-10-21
+22,Mia,Anderson,,Minneapolis,MN,2024-12-05
+23,Jack,Sullivan,jsullivan@gmail.com,Nashville,TN,2025-01-17
+24,Lena,Fischer,lena.f@outlook.com,Charlotte,NC,2025-02-09
+25,Andre,Silva,andre.silva@gmail.com,Orlando,FL,2025-02-28
+26,Keiko,Tanaka,keiko.t@yahoo.com,San Francisco,CA,2025-03-15
+27,Sam,Rivera,sam.rivera@gmail.com,Albuquerque,NM,2025-04-03
+28,Ingrid,Larsen,ingrid.l@outlook.com,Madison,WI,2025-04-19
+29,Tyler,Brooks,tyler.b@gmail.com,Kansas City,MO,2025-05-06
+30,Fatima,Ali,fatima.ali@yahoo.com,Columbus,OH,2025-05-23
+31,Noah,Clark,noah.clark@gmail.com,Las Vegas,NV,2025-06-10
+32,Isabella,Conti,isabella.c@outlook.com,Providence,RI,2025-06-27
+33,Wei,Zhang,wei.zhang@gmail.com,Irvine,CA,2025-07-08
+34,Rosa,Mendez,rosa.m@yahoo.com,El Paso,TX,2025-07-21
+35,Ben,Carter,ben.carter@gmail.com,Salt Lake City,UT,2024-08-30
+36,Amara,Obi,amara.obi@outlook.com,Philadelphia,PA,2024-02-11
+37,Felix,Wagner,felix.w@gmail.com,Pittsburgh,PA,2023-12-14
+38,Harper,Young,,Boise,ID,2024-04-25
+39,Dmitri,Volkov,dmitri.v@yahoo.com,Reno,NV,2024-06-07
+40,Leilani,Kahale,leilani.k@gmail.com,Honolulu,HI,2024-09-18
+41,Oscar,Reyes,oscar.reyes@outlook.com,Fresno,CA,2024-11-11
+42,Maya,Goldberg,maya.g@gmail.com,Stamford,CT,2025-01-29
+43,Jin,Park,jin.park@yahoo.com,Bellevue,WA,2025-03-07
+44,Elena,Petrova,elena.p@gmail.com,Scottsdale,AZ,2025-04-30
+45,Will,Thompson,will.t@outlook.com,Richmond,VA,2025-05-14
