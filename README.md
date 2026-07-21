@@ -1,5 +1,3 @@
-# course-data
-=======
 # Shop dataset
 
 Sample data for the SQL and Python course. This is a small, synthetic e-commerce store, made-up customers, products, and orders, built for learning.
@@ -46,3 +44,9 @@ customers.head()
 ```
 
 In DuckDB, either open `shop.duckdb` directly, or rebuild it from `shop_duckdb_setup.sql`.
+
+## A note on the numbers
+
+The store's total revenue is `$7,040.67`. You get that same figure two ways: adding up `total_amount` across the `orders` table, or adding up `quantity * unit_price` across every row of `order_items`. They agree, which is a good sign the data is consistent.
+
+Here's the trap, and it's one the course teaches you to watch for: if you first *join* `orders` to `order_items` and then add up `total_amount`, you get `$13,396.18`, almost double. Nothing is broken. Each order's total just gets counted once per line item in that order, so orders with several items are counted several times. Joining before you sum is one of the most common ways to quietly get a wrong number.
