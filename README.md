@@ -1,23 +1,21 @@
 # Shop dataset
 
-Sample data for the SQL and Python course. This is a small, synthetic e-commerce store, made-up customers, products, and orders, built for learning.
+Sample data for the SQL and Python course. It's a small e-commerce shop, customers, products, orders, and the line items inside those orders. None of it is real data.
 
 ## What's here
 
-Four CSV files, one per table, plus a ready-to-query DuckDB database and the script that builds it.
-
 | File | Rows | What it is |
 |---|---|---|
-| `customers.csv` | 45 | People who have an account at the shop |
-| `products.csv` | 45 | Things the shop sells, across five categories |
-| `orders.csv` | 85 | Orders that customers placed |
-| `order_items.csv` | 130 | The individual line items inside those orders |
+| `customers.csv` | 408 | People who have an account at the shop |
+| `products.csv` | 120 | Things the shop sells, across five categories |
+| `orders.csv` | 1,000 | Orders customers placed |
+| `order_items.csv` | 2,993 | The individual line items inside those orders |
 | `shop.duckdb` | — | All four tables in one DuckDB database file |
 | `shop_duckdb_setup.sql` | — | The script that builds the database from scratch |
 
 ## The columns
 
-**customers**: `customer_id`, `first_name`, `last_name`, `email`, `city`, `state`, `signup_date`
+**customers**: `customer_id`, `first_name`, `last_name`, `email`, `city`, `state`, `signup_date`, `phone`, `total_spent`
 
 **products**: `product_id`, `product_name`, `category`, `price`, `in_stock`
 
@@ -27,13 +25,13 @@ Four CSV files, one per table, plus a ready-to-query DuckDB database and the scr
 
 ## How the tables connect
 
-An order belongs to a customer (`orders.customer_id` points at `customers.customer_id`). Each order is made up of one or more line items (`order_items.order_id` points at `orders.order_id`), and each line item is one product (`order_items.product_id` points at `products.product_id`).
+An order belongs to a customer (`orders.customer_id` points at `customers.customer_id`). Each order is made of one or more line items (`order_items.order_id` points at `orders.order_id`), and each line item is one product (`order_items.product_id` points at `products.product_id`).
 
 The five product categories are Electronics, Home, Office, Kitchen, and Fitness.
 
 ## Loading it
 
-In Python with pandas, straight from this repo:
+**Python, from the CSVs (the beginner path).** No download needed, pandas reads straight from this repo:
 
 ```python
 import pandas as pd
@@ -43,10 +41,13 @@ customers = pd.read_csv(BASE + "customers.csv")
 customers.head()
 ```
 
-In DuckDB, either open `shop.duckdb` directly, or rebuild it from `shop_duckdb_setup.sql`.
+**Python, connected to the database (recommended).** This is the path I'd steer you toward. You query a real database straight from Python, which is the closest thing to how the job actually works, and it lets you use SQL and pandas side by side instead of picking one. It's a step up from reading flat CSVs, and worth it. Download `shop.duckdb`, `pip install duckdb`, and query it as a real database:
 
-## A note on the numbers
+```python
+import duckdb
 
-The store's total revenue is `$7,040.67`. You get that same figure two ways: adding up `total_amount` across the `orders` table, or adding up `quantity * unit_price` across every row of `order_items`. They agree, which is a good sign the data is consistent.
+con = duckdb.connect("shop.duckdb")
+con.execute("SELECT * FROM customers LIMIT 5").df()
+```
 
-Here's the trap, and it's one the course teaches you to watch for: if you first *join* `orders` to `order_items` and then add up `total_amount`, you get `$13,396.18`, almost double. Nothing is broken. Each order's total just gets counted once per line item in that order, so orders with several items are counted several times. Joining before you sum is one of the most common ways to quietly get a wrong number.
+**SQL.** Open `shop.duckdb` directly in a tool like DBeaver, or rebuild it from scratch by running `shop_duckdb_setup.sql`.

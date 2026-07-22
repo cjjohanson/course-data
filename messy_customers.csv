@@ -1,0 +1,15 @@
+customer_id,first_name,last_name,email,city,state,signup_date,total_spent
+1,Maria,Gomez,maria.g@gmail.com,Los Angeles,CA,2024-01-15,"$1,299.00"
+2,James,Chen,jchen@yahoo.com,Austin,tx,2024-02-03,$450.50
+3,Aisha,Patel,,San Diego, CA ,2025-02-20,"$2,100.75"
+4,David,Okafor,dokafor@outlook.com,Portland,OR,2025-03-11,$89.99
+5,Sarah,Johnson,,Seattle,WA,2024-11-30,$675.00
+6,Kwame,Osei,kwame.o@gmail.com,Los Angeles,ca,2024-05-22,"$1,050.25"
+7,Nina,Rodriguez,nina.r@gmail.com,Houston,TX ,2025-01-08,pending
+8,Tom,Baker,tbaker@yahoo.com,Denver,CO,2024-07-19,$320.00
+9,Grace,Kim,grace.k@outlook.com,Phoenix,az,2025-04-02,"$1,780.00"
+10,Diego,Morales,diego.m@gmail.com,Miami,FL,2024-09-14,$540.30
+11,Lena,Novak,lena.n@gmail.com,Chicago,IL,2024-12-05,$210.00
+12,Omar,Haddad,,Boston,MA,2025-05-18,"$1,995.00"
+1,Maria,Gomez,maria.g@gmail.com,Los Angeles,CA,2024-01-15,"$1,299.00"
+8,Tom,Baker,tbaker@yahoo.com,Denver,CO,2024-07-19,$320.00
