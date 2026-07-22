@@ -1,46 +1,121 @@
 product_id,product_name,category,price,in_stock
-1,Wireless Mouse,Electronics,24.99,120
+1,Wireless Mouse,Electronics,24.99,250
 2,Mechanical Keyboard,Electronics,89.99,45
-3,USB-C Charging Cable,Electronics,12.50,300
-4,Wireless Headphones,Electronics,149.99,30
-5,27-inch Monitor,Electronics,219.00,15
-6,Stainless Water Bottle,Home,19.95,200
-7,Ceramic Coffee Mug,Home,11.00,180
-8,Cotton Throw Blanket,Home,39.99,60
-9,Desk Lamp,Home,34.50,75
-10,Notebook (3-pack),Office,14.99,250
-11,Gel Pens (12-pack),Office,8.49,400
-12,Ergonomic Office Chair,Office,189.00,12
-13,Standing Desk Converter,Office,129.99,22
-14,Wireless Charging Pad,Electronics,29.99,90
-15,Bluetooth Speaker,Electronics,45.00,55
-16,Laptop Stand,Electronics,39.99,85
-17,HDMI Cable,Electronics,9.99,350
-18,Webcam 1080p,Electronics,59.99,40
-19,USB Microphone,Electronics,79.99,35
-20,Portable SSD 1TB,Electronics,109.99,28
-21,Noise Cancelling Earbuds,Electronics,129.99,50
-22,Smart LED Light Strip,Electronics,27.99,95
-23,Wireless Presenter Remote,Electronics,21.99,60
-24,Phone Tripod,Electronics,18.99,110
-25,Scented Candle Set,Home,16.50,140
-26,Throw Pillow (2-pack),Home,24.99,90
-27,Wall Clock,Home,22.00,70
-28,Picture Frame Set,Home,18.75,120
-29,Area Rug 5x7,Home,89.00,25
-30,Blackout Curtains,Home,45.99,55
-31,Essential Oil Diffuser,Home,32.99,65
-32,Sticky Notes (12-pack),Office,6.99,500
-33,Desk Organizer,Office,23.50,130
-34,Whiteboard 24x36,Office,42.00,45
-35,Paper Shredder,Office,64.99,20
-36,Printer Paper (500 sheets),Office,11.25,400
-37,Fountain Pen,Office,28.00,75
-38,Monitor Stand with Drawer,Office,36.99,50
-39,Cast Iron Skillet,Kitchen,34.99,80
-40,Chef Knife 8-inch,Kitchen,49.99,60
-41,Cutting Board Set,Kitchen,26.99,100
-42,French Press,Kitchen,29.95,70
-43,Electric Kettle,Kitchen,39.95,55
-44,Yoga Mat,Fitness,25.99,120
-45,Adjustable Dumbbell Pair,Fitness,149.00,18
+3,USB-C Hub,Electronics,39.99,250
+4,Wireless Headphones ,Electronics,149.99,200
+5,27-inch Monitor,Electronics,219.0,45
+6,Webcam 1080p,Electronics,59.99,140
+7,USB Microphone,Electronics,79.99,140
+8,  Portable SSD 1TB,Electronics,109.99,60
+9,Noise Cancelling Earbuds,Electronics,129.99,500
+10,Laptop Stand,Electronics,32.99,60
+11,Bluetooth Speaker,Electronics,45.0,70
+12,Smart Plug,Electronics,18.99,70
+13,HDMI Cable,Electronics,12.99,500
+14,Wireless Charger,Electronics,29.99,20
+15,Graphics Tablet,Electronics,89.99,140
+16,Streaming Mic,Electronics,99.0,70
+17,Ring Light,Electronics,34.99,12
+18,Label Printer,Electronics,69.99,20
+19,E-Reader,Electronics,119.0,90
+20,Dash Cam,Electronics,54.99,70
+21,Smart Bulb,Electronics,14.99,250
+22,Router,Electronics,64.99,250
+23,Power Bank,Electronics,39.99,140
+24,Action Camera,Electronics,129.99,90
+25,Throw Blanket,Home,29.99,400
+26,Table Lamp,Home,34.99,500
+27,Picture Frame Set,Home,19.99,12
+28,Scented Candle,Home,12.99,20
+29,Wall Clock,Home,24.99,400
+30,Area Rug,Home,89.99,90
+31,Curtain Panel,Home,22.99,30
+32,Storage Bins,Home,27.99,140
+33,Laundry Hamper,Home,32.99,90
+34,Floor Cushion,Home,18.99,45
+35,VASE,Home,16.99,120
+36,Bookend Set,Home,21.99,20
+37,Desk Organizer,Home,14.99,250
+38,Cotton Sheets,Home,49.99,90
+39,Duvet Cover,Home,59.99,60
+40,Mirror,Home,42.99,12
+41,Coat Rack,Home,39.99,140
+42,Plant Pot,Home,11.99,70
+43,Shelf Bracket,Home,8.99,
+44,Doormat,Home,15.99,400
+45,Bath Towel Set,Home,34.99,30
+46,Shower Caddy,Home,26.99,250
+47,Trash Can,Home,24.99,200
+48,Ottoman,Home,79.99,30
+49,Sticky Notes (12-pack),Office,6.99,140
+50,Ballpoint Pens (24),Office,8.99,
+51,Ergonomic Office Chair,Office,189.0,500
+52,Standing Desk Converter,Office,129.99,200
+53,File Folders,Office,9.99,120
+54,Whiteboard,Office,45.99,140
+55,Stapler,Office,12.99,120
+56,Desk Pad,Office,19.99,140
+57,Monitor Arm,Office,99.0,45
+58,Notebook Set,Office,14.99,400
+59,Paper Shredder,Office,79.99,250
+60,Binder Clips,Office,4.99,140
+61,Highlighters,Office,7.99,20
+62,  Cable Organizer,Office,16.99,45
+63,Desk Drawer,Office,59.99,400
+64,Printer Paper (ream),Office,7.49,12
+65,Dry Erase Markers,Office,11.99,45
+66,Letter Tray,Office,13.99,140
+67,Tape Dispenser,Office,9.49,200
+68,Push Pins,Office,3.99,120
+69,Laptop Sleeve,Office,22.99,20
+70,Garlic Press,Kitchen,17.99,90
+71,Whisk,Kitchen,6.49,250
+72,Mixing Spoon Set,Kitchen,42.0,12
+73,Chef Knife,Kitchen,39.99,20
+74,Cutting Board,Kitchen,17.99,120
+75,Mixing Bowls,Kitchen,27.99,120
+76,Nonstick Pan,Kitchen,34.99,120
+77,Measuring Cups,Kitchen,12.99,20
+78,French Press,Kitchen,29.99,12
+79,Dish Rack,Kitchen,22.99,45
+80,Silicone Spatula,Kitchen,9.99,45
+81,Food Storage Set,Kitchen,24.99,30
+82,Kettle,Kitchen,44.99,60
+83,Colander,Kitchen,13.99,60
+84,Can Opener,Kitchen,8.99,500
+85,Spice Rack,Kitchen,19.99,30
+86,Tea Towels,Kitchen,11.99,12
+87,Blender,Kitchen,49.99,400
+88,Coffee Grinder,Kitchen,32.99,120
+89,Baking Sheet,Kitchen,15.99,30
+90,Peeler,Kitchen,7.99,30
+91,Salad Spinner,Kitchen,21.99,45
+92,Trivet,Kitchen,10.99,200
+93,Water Bottle,Kitchen,18.99,200
+94,Travel Mug,Kitchen,16.99,200
+95,Ice Cube Tray,Kitchen,6.99,45
+96,Oven Mitts,Kitchen,14.99,60
+97,Yoga Mat,Fitness,27.99,60
+98,Resistance Bands,Fitness,15.99,
+99,Dumbbell Set,Fitness,89.99,200
+100,Jump Rope,Fitness,9.99,45
+101,Foam Roller,Fitness,24.99,70
+102,Water Bottle 32oz,Fitness,18.99,70
+103,Gym Bag,Fitness,32.99,140
+104,  Kettlebell,Fitness,39.99,500
+105,Exercise Ball,Fitness,21.99,140
+106,Ab Roller,Fitness,13.99,30
+107,Pull-Up Bar,Fitness,29.99,400
+108,Massage Gun,Fitness,79.99,200
+109,Grip Trainer,Fitness,11.99,250
+110,Workout Gloves,Fitness,16.99,120
+111,Skipping Timer,Fitness,12.99,12
+112,Compression Sleeve,Fitness,14.99,60
+113,Balance Board,Fitness,42.99,30
+114,Weight Plate,Fitness,19.99,400
+115,Accent Pillow,Home,8.99,
+116,Wall Shelf,Home,25.99,400
+117,Candle Holder,Home,34.99,70
+118,Napkin Set,Home,10.99,30
+119,Coaster Set,Home,17.99,500
+120,Draft Stopper,Home,22.99,70

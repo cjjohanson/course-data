@@ -1,46 +1,409 @@
-customer_id,first_name,last_name,email,city,state,signup_date
-1,Maria,Gomez,maria.g@gmail.com,Los Angeles,CA,2024-01-15
-2,James,Chen,jchen@yahoo.com,Austin,TX,2024-02-03
-3,Aisha,Patel,aisha.p@gmail.com,San Diego,CA,2025-02-20
-4,David,Okafor,dokafor@outlook.com,Portland,OR,2025-03-11
-5,Sarah,Johnson,,Seattle,WA,2024-11-30
-6,Luis,Ramirez,luisr@yahoo.com,San Jose,CA,2025-01-08
-7,Emily,Nguyen,emily.n@gmail.com,Dallas,TX,2025-04-22
-8,Kwame,Mensah,kmensah@gmail.com,Los Angeles,CA,2025-05-17
-9,Hannah,Kim,,Portland,OR,2024-09-05
-10,Diego,Torres,diegot@yahoo.com,Sacramento,CA,2025-06-01
-11,Priya,Shah,priya.shah@gmail.com,Phoenix,AZ,2024-06-18
-12,Marcus,Lee,marcus.lee@outlook.com,Denver,CO,2025-01-25
-13,Nina,Rossi,nina.rossi@yahoo.com,Miami,FL,2025-03-30
-14,Tom,Baker,tbaker@gmail.com,Chicago,IL,2024-04-12
-15,Grace,Liu,grace.liu@gmail.com,San Francisco,CA,2024-08-09
-16,Olivia,Brown,olivia.b@gmail.com,New York,NY,2023-11-02
-17,Ethan,Wright,ethan.w@yahoo.com,Brooklyn,NY,2024-03-19
-18,Zoe,Martin,zoe.martin@gmail.com,Atlanta,GA,2024-05-27
-19,Omar,Haddad,omar.h@outlook.com,Houston,TX,2024-07-14
-20,Chloe,Dubois,chloe.d@gmail.com,Boston,MA,2023-09-08
-21,Ravi,Kumar,ravi.kumar@yahoo.com,San Jose,CA,2024-10-21
-22,Mia,Anderson,,Minneapolis,MN,2024-12-05
-23,Jack,Sullivan,jsullivan@gmail.com,Nashville,TN,2025-01-17
-24,Lena,Fischer,lena.f@outlook.com,Charlotte,NC,2025-02-09
-25,Andre,Silva,andre.silva@gmail.com,Orlando,FL,2025-02-28
-26,Keiko,Tanaka,keiko.t@yahoo.com,San Francisco,CA,2025-03-15
-27,Sam,Rivera,sam.rivera@gmail.com,Albuquerque,NM,2025-04-03
-28,Ingrid,Larsen,ingrid.l@outlook.com,Madison,WI,2025-04-19
-29,Tyler,Brooks,tyler.b@gmail.com,Kansas City,MO,2025-05-06
-30,Fatima,Ali,fatima.ali@yahoo.com,Columbus,OH,2025-05-23
-31,Noah,Clark,noah.clark@gmail.com,Las Vegas,NV,2025-06-10
-32,Isabella,Conti,isabella.c@outlook.com,Providence,RI,2025-06-27
-33,Wei,Zhang,wei.zhang@gmail.com,Irvine,CA,2025-07-08
-34,Rosa,Mendez,rosa.m@yahoo.com,El Paso,TX,2025-07-21
-35,Ben,Carter,ben.carter@gmail.com,Salt Lake City,UT,2024-08-30
-36,Amara,Obi,amara.obi@outlook.com,Philadelphia,PA,2024-02-11
-37,Felix,Wagner,felix.w@gmail.com,Pittsburgh,PA,2023-12-14
-38,Harper,Young,,Boise,ID,2024-04-25
-39,Dmitri,Volkov,dmitri.v@yahoo.com,Reno,NV,2024-06-07
-40,Leilani,Kahale,leilani.k@gmail.com,Honolulu,HI,2024-09-18
-41,Oscar,Reyes,oscar.reyes@outlook.com,Fresno,CA,2024-11-11
-42,Maya,Goldberg,maya.g@gmail.com,Stamford,CT,2025-01-29
-43,Jin,Park,jin.park@yahoo.com,Bellevue,WA,2025-03-07
-44,Elena,Petrova,elena.p@gmail.com,Scottsdale,AZ,2025-04-30
-45,Will,Thompson,will.t@outlook.com,Richmond,VA,2025-05-14
+customer_id,first_name,last_name,email,city,state,signup_date,phone,total_spent
+1,Nina,Petrov,nina.petrov@yahoo.com,Detroit, MI ,2025-09-27,(540) 621-5065,$396.17
+2,Aisha,Flores,aisha.flores@yahoo.com,Miami ,FL,2024-07-23,271-485-6753,"$3,434.40"
+3,Nadia,Adams,nadia.adams@outlook.com,San Diego,ca,2024-04-28,(521) 646-9379,$681.47
+4,Aisha,Reyes,aishareyes@yahoo.com,Los Angeles,ca,2025-06-16,838-521-3041,"$1,096.31"
+5,Mei,Diallo,meidiallo@hotmail.com,Columbus,OH,2024-10-29,(615) 761-1006,"$2,754.44"
+6,Rosa,Diallo,rosadiallo@yahoo.com,Salt Lake City,UT,2025-03-28,543-295-4848,$712.97
+7,James,Patel,jamespatel@yahoo.com,Orlando,FL,2025-05-01,871.904.1090,"$3,101.42"
+8,Paul,Reyes,paul.reyes@yahoo.com,Miami,FL,2024-06-29,7728096198,"$2,152.03"
+9,Vera,Singh,verasingh@hotmail.com,Minneapolis,MN,2025-07-15,(733) 696-4919,"$1,014.33"
+10,Liam,Adams,liamadams@yahoo.com,Buffalo,NY,2025-07-07,(677) 625-2020,"$3,168.84"
+11, Cole,Chen,colechen@hotmail.com,Raleigh,NC,2025-05-03,(425) 699-4595,"$1,373.22"
+12,Lucia,Meyer,luciameyer@hotmail.com,Spokane, WA ,2025-04-23,(338) 672-3977,$756.58
+13,Amara,Adams,amaraadams@gmail.com,raleigh,NC,2024-10-11,558-429-2124,"$2,644.73"
+14,Ethan,Nguyen,ethannguyen@yahoo.com,San Diego, CA ,2025-09-28,821-965-2876,"$1,102.42"
+15,Cole,Chen,cole.chen@yahoo.com,New York,NY,2025-08-12,913-508-2983,$162.92
+16,Nadia,Reyes,nadia.reyes@hotmail.com,Charlotte,NC,2024-03-11,(670) 924-3506,"$3,379.85"
+17,Liam,Cruz,liam.cruz@yahoo.com,Philadelphia,PA,2025-04-21,(783) 824-7209,"$1,151.05"
+18,Andre,Brooks,andrebrooks@outlook.com,nashville,TN,2024-09-21,937-616-9004,"$1,676.80"
+19,Kofi,Dubois,kofidubois@outlook.com,Las Vegas,NV,2024-01-18,(635) 963-6419,"$1,087.05"
+20,Priya,Baker,priya.baker@yahoo.com,Phoenix,AZ,2024-11-19,9787375636,"$1,050.94"
+21,Hassan,Haddad,,New York,NY,2024-01-15,(853) 970-9042,
+22,Yuki,Flores,yuki.flores@hotmail.com,Philadelphia,PA,2025-03-27,(844) 902-1878,"$3,322.96"
+23,Kwame,Cohen,kwamecohen@yahoo.com,San Antonio,TX,2025-07-25,802-639-6003,"$3,361.18"
+24,Nina,Brooks,nina.brooks@gmail.com,tucson,AZ,2024-09-27,(498) 233-4792,"$3,011.43"
+25,Sarah,Sharma,sarahsharma@gmail.com,Tampa,FL,2025-10-02,(345) 273-1977,"$2,626.37"
+26,Iris,Tanaka,iristanaka@outlook.com,Las Vegas,NV,2024-05-07,642-952-6280,
+27,Priya,Lund,priyalund@hotmail.com,San Diego, CA ,2024-10-02,(703) 293-8700,"$2,352.06"
+28,Lena,Adams,lenaadams@gmail.com,Detroit,MI,2025-05-22,613-726-1018,"$1,458.10"
+29,Chloe,Weber,chloeweber@yahoo.com,Charlotte,NC,2025-09-29,(915) 696-2989,"$2,801.61"
+30, Kofi,Novak,kofinovak@gmail.com,New York,NY,2025-07-18,933-498-9337,"$1,699.10"
+31,Clara,Cohen,clara.cohen@yahoo.com,Salt Lake City,UT,2025-07-18,(719) 473-1042,"$2,062.54"
+32,Lucia,Dubois,luciadubois@hotmail.com,Seattle,WA,2025-04-02,(444) 785-7274,$171.89
+33,Milo,Flores,miloflores@yahoo.com,Raleigh,NC,2025-01-30,(539) 302-8213,$73.41
+34,Diego,Wang,diegowang@hotmail.com,Seattle,WA,2024-03-17,746-589-6188,"$1,718.06"
+35,Nadia,Patel,nadiapatel@gmail.com,Austin,TX,2024-08-28,302-654-3725,$180.05
+36,David,Tanaka,david.tanaka@yahoo.com,Nashville,TN,2025-01-18,8994469153,"$1,624.80"
+37,Sofia,Ibrahim,sofia.ibrahim@yahoo.com,Tampa,FL,2024-01-10,(854) 634-5097,"$3,497.82"
+38,Clara,Rodriguez,clara.rodriguez@outlook.com,Orlando,FL,2025-01-25,7799021803,"$2,918.28"
+39,Yuki,Sharma,yukisharma@yahoo.com,Nashville,TN,2024-08-12,,$136.11
+40,Hassan,Kim,hassankim@outlook.com,Houston,TX,2024-10-29,693.502.6549,$282.04
+41,Anaya,Sharma,,Columbus,OH,2025-07-24,888.468.7242,$397.04
+42,Priya,Flores,priyaflores@yahoo.com,San Diego,California,2025-09-26,(509) 864-7689,$149.50
+43,Andre,Baker,andrebaker@hotmail.com,Dallas,TX,2024-08-28,3017017686,"$2,422.18"
+44,Marcus,Haas,marcus.haas@outlook.com,Las Vegas,NV,2024-08-29,665-293-4475,$94.32
+45,Jack,Cohen,jack.cohen@yahoo.com,Portland,OR,2025-08-01,2024833370,"$2,798.83"
+46,Tom,Chen,tom.chen@gmail.com,Portland,OR,2024-01-16,(316) 963-2041,"$1,806.07"
+47,Nina,Haas,ninahaas@outlook.com,Miami, FL ,2025-09-21,(611) 636-2768,$275.75
+48,Kwame,Diallo,kwamediallo@outlook.com,Seattle,WA,2024-03-08,819-640-2624,"$2,298.40"
+49,Paul,Park,paulpark@hotmail.com,Tucson,AZ,2025-03-16,8814617132,"$1,670.45"
+50,Kwame,Osei,kwameosei@gmail.com,Houston,TX,2025-03-18,620.562.7929,"$3,390.03"
+51,Rosa,Bauer,rosa.bauer@yahoo.com,Nashville,TN,2024-04-16,485.787.4705,"$3,411.42"
+52,Dmitri,Cruz,dmitricruz@yahoo.com,San Diego,California,2025-09-15,206-385-3347,$513.72
+53,Hana,Chen,hanachen@outlook.com,Houston,TX,2025-06-27,(286) 253-3549,"$2,365.41"
+54,Liam,Haas,liamhaas@gmail.com,Minneapolis,MN,2025-05-12,(698) 739-6053,"$2,105.65"
+55,Maria,Brooks,maria.brooks@gmail.com,New York,NY,2024-08-04,745-920-4770,"$2,825.58"
+56,Sarah ,Meyer,sarahmeyer@hotmail.com,San Jose,California,2025-03-22,(614) 221-6321,"$1,621.14"
+57,Gwen,Ali,gwenali@gmail.com,Houston,TX,2025-03-23,372-278-9363,$694.78
+58,Paul,Petrov,paulpetrov@yahoo.com,Nashville,TN,2024-05-31,675-972-8354,"$2,257.61"
+59,Dmitri,Diallo,dmitridiallo@outlook.com,Buffalo,NY,2024-06-03,(662) 238-1932,"$2,263.44"
+60,Kwame,Cruz,kwamecruz@gmail.com,Raleigh,NC,2025-04-18,(819) 687-9214,$380.19
+61,Jack,Osei,jackosei@yahoo.com,Denver,CO,2024-02-10,546-895-1857,$249.37
+62,Nina,Park,ninapark@yahoo.com,Raleigh,NC,2024-10-17,(517) 871-7421,$314.82
+63,Sean,Santos,seansantos@gmail.com,Atlanta,GA,2024-05-10,,"$3,330.07"
+64,Jack,Dubois,jackdubois@gmail.com,Phoenix,AZ,2024-08-19,238.877.6517,"$2,098.42"
+65,Diego,Novak,diegonovak@hotmail.com,Denver,CO,2025-10-01,(491) 970-8355,"$3,380.28"
+66,Clara,Nguyen,claranguyen@hotmail.com,Charlotte,NC,2025-08-07,(819) 341-5096,"$1,311.82"
+67,Nina,Weber,ninaweber@yahoo.com,San Antonio,TX,2024-10-18,(557) 227-7797,$840.51
+68,Kwame,Ali,kwame.ali@outlook.com,Miami,FL,2024-01-29,(912) 342-8685,
+69,Kwame,Chen,kwame.chen@hotmail.com,Tampa,FL,2024-08-08,(444) 629-8489,"$1,759.41"
+70,Nadia, Chen,nadia.chen@hotmail.com,Orlando,FL,2024-05-27,269-738-9914,"$1,948.45"
+71,Ruby,Flores,,San Jose,CA,2025-01-31,(843) 306-6447,"$1,198.14"
+72,Blake,Haddad,blake.haddad@hotmail.com,Salt Lake City,UT,2025-05-05,242-523-6080,"$1,909.75"
+73,Sofia,Patel,sofiapatel@outlook.com,Phoenix,AZ,2024-10-19,(961) 650-7334,"$2,428.40"
+74,Hassan,Weber,hassanweber@yahoo.com,Chicago,IL,2024-03-25,502-513-8305,"$2,420.38"
+75,Elena,Haas,elena.haas@gmail.com,San Jose,CA,2024-12-27,9678953621,"$2,134.35"
+76,Zara,Patel,zarapatel@gmail.com,Portland,OR,2024-03-09,654-981-2259,"$1,405.16"
+77,Blake ,Murphy,blakemurphy@gmail.com,Orlando,FL,2024-04-26,(826) 492-9047,$277.70
+78,Omar,Haas,omarhaas@outlook.com,Houston,TX,2024-11-23,853-378-6922,$719.41
+79,Grace,Cohen,gracecohen@yahoo.com,Providence,RI,2024-01-27,934-936-8842,"$2,885.22"
+80,Sarah,Kim,sarah.kim@yahoo.com,Buffalo,NY,2024-03-16,(327) 730-3507,"$3,272.89"
+81,Priya,Petrov,priyapetrov@yahoo.com,Boston,MA,2024-03-21,(372) 806-3526,"$3,158.96"
+82,Jack,Lund,jacklund@outlook.com,San Jose,CA,2024-01-30,(231) 709-9938,"$1,700.65"
+83,Reza,Meyer,rezameyer@hotmail.com,New York,NY,2025-04-09,9355266658,"$1,309.48"
+84,Sean,Rodriguez,sean.rodriguez@gmail.com,Buffalo,NY,2024-09-04,4543636364,$680.62
+85,Lena,Dubois,lenadubois@hotmail.com,Salt Lake City,UT,2025-05-25,(249) 251-5609,"$2,296.82"
+86,Clara,Tanaka,claratanaka@hotmail.com,,California,2024-04-20,(571) 766-5728,"$2,680.13"
+87,Liam,Cruz,liamcruz@outlook.com,San Antonio,TX,2024-05-11,(721) 611-9193,pending
+88,Kofi,Adams,kofiadams@outlook.com,Philadelphia,PA,2025-06-15,506-807-6511,"$1,724.67"
+89,Iris,Bauer,irisbauer@outlook.com,Philadelphia,PA,2024-01-18,471-871-4728,$613.38
+90,Hana,Cruz,hana.cruz@gmail.com,raleigh,NC,2024-05-31,907-408-7723,"$1,661.19"
+91,Milo,Okafor,milookafor@hotmail.com,Portland,OR,2025-06-15,759-562-5331,$877.89
+92,Sean,Bauer,seanbauer@hotmail.com,Miami,FL,2024-10-31,(938) 480-5715,"$1,341.34"
+93,Leo,Petrov,leopetrov@hotmail.com,Seattle,WA,2024-10-24,(751) 477-5450,"$2,062.17"
+94,Ethan,Okafor,ethanokafor@gmail.com,Miami,fl,2024-08-26,(361) 616-8793,"$3,374.42"
+95,Amara,Tanaka,amara.tanaka@gmail.com,Sacramento,CA,2024-04-01,(237) 606-9116,"$3,055.57"
+96,Yuki,Patel,yukipatel@outlook.com,Los Angeles,CA,2024-11-01,(337) 716-8668,"$1,170.78"
+97, Vera,Ibrahim,vera.ibrahim@yahoo.com,Tampa,FL,2024-07-09,(637) 727-6372,$663.04
+98, Grace,Flores,graceflores@outlook.com,Buffalo,NY,2024-09-11,,"$2,430.83"
+99,David,Baker,davidbaker@outlook.com,Salt Lake City,UT,2024-11-10,8294264590,"$1,603.33"
+100,Rosa,Ali,rosa.ali@yahoo.com,Detroit,MI,2025-07-16,738-657-9653,"$1,983.31"
+101,David,Park,david.park@hotmail.com,Phoenix,AZ,2025-08-09,(722) 656-1911,"$1,609.66"
+102,David,Park,davidpark@yahoo.com,Salt Lake City,UT,2024-11-11,7542612130,"$1,019.08"
+103,Omar,Kim,omarkim@hotmail.com,Detroit,MI,2025-01-18,(336) 869-6697,"$1,387.84"
+104,Grace,Sharma,gracesharma@hotmail.com,Los Angeles,CA,2024-01-24,3584824088,$412.70
+105,Lucia,Wang,,San Diego,CA,2024-09-03,,"$1,419.88"
+106,Priya,Costa,priyacosta@outlook.com,Tucson,AZ,2024-02-27,(509) 346-9540,$232.13
+107,Cole,Haddad,colehaddad@hotmail.com,Minneapolis,MN,2025-07-23,(585) 388-9813,"$1,066.56"
+108,Kofi,Morales,kofimorales@yahoo.com,Salt Lake City,UT,2024-02-29,660-579-2514,$199.35
+109,Ruby,Yamada,rubyyamada@yahoo.com,San Jose,CA,2024-03-15,2154164113,"$3,498.51"
+110,Clara,Cohen,claracohen@hotmail.com,Tucson,AZ,2025-02-10,(725) 709-8635,"$1,653.83"
+111,Amara,Brooks,amara.brooks@yahoo.com,Charlotte,NC,2024-11-16,(627) 502-3497,"$2,002.87"
+112,Ethan,Dubois,ethandubois@hotmail.com,Atlanta,GA,2024-09-20,(937) 759-9000,"$3,466.33"
+113,David,Weber,david.weber@hotmail.com,San Jose,CA,2024-03-17,(209) 423-9285,"$2,239.30"
+114, Dmitri,Flores,,Providence,RI,2024-01-17,217.714.8054,$392.42
+115,Nina,Weber,ninaweber@outlook.com,Seattle,WA,2024-09-03,(449) 913-4700,$300.55
+116,Blake,Patel,blakepatel@gmail.com,Houston,TX,2025-02-19,539.779.2562,$819.59
+117,Gwen,Lund,gwen.lund@gmail.com,Philadelphia,PA,2024-10-04,8013477525,"$1,982.57"
+118,Iris,Santos,irissantos@gmail.com,Atlanta,GA,2025-01-28,437-277-6580,"$2,092.72"
+119,Paul,Diallo,pauldiallo@hotmail.com,San Diego,CA,2024-10-06,833-502-5037,$556.69
+120,Kofi,Morales,kofimorales@hotmail.com,Raleigh,NC,2024-11-20,(641) 659-9395,
+121,Elena,Park,elenapark@outlook.com,Houston,TX,2025-09-03,(448) 785-9537,$503.16
+122,Noah,Murphy,noah.murphy@hotmail.com,Providence,RI,2024-05-29,(707) 808-4203,$43.55
+123,Leo,Adams,leoadams@yahoo.com,Raleigh,NC,2024-12-03,5213817524,"$2,438.45"
+124,Andre,Lund,andrelund@gmail.com,Orlando,FL,2024-11-29,9867631440,"$2,485.12"
+125,Zara,Tanaka,zaratanaka@outlook.com,Austin,TX,2025-02-22,659-812-8851,"$3,233.77"
+126,Gwen,Wang,gwen.wang@gmail.com,San Jose,CA,2025-01-03,862-827-1725,"$2,270.67"
+127, Anaya,Adams,anayaadams@yahoo.com,Minneapolis,MN,2024-04-18,(907) 712-3469,
+128,Nina,Tanaka,ninatanaka@outlook.com,Detroit,MI,2024-03-28,687-299-8178,$253.77
+129,Aisha,Baker,aishabaker@yahoo.com,San Diego,CA,2024-12-17,673-437-7636,"$2,307.43"
+130,Leo,Chen,leochen@yahoo.com,Phoenix,AZ,2025-04-05,(304) 749-4063,$416.56
+131,Lucia,Dubois,luciadubois@outlook.com,Buffalo,NY,2025-09-03,504-829-2388,$850.23
+132,Tom,Haddad,tomhaddad@hotmail.com,Charlotte,NC,2024-05-24,(860) 377-3733,"$1,114.74"
+133,Zara,Cruz,zaracruz@hotmail.com,Sacramento,CA,2025-01-02,(625) 927-8272,$127.40
+134,Anaya,Sharma,anayasharma@hotmail.com,Boston,MA,2024-02-03,(315) 786-2871,"$3,468.31"
+135,Nadia,Patel,nadiapatel@yahoo.com,Las Vegas, NV ,2025-07-13,289-649-2923,"$2,841.25"
+136,Cole,Petrov,colepetrov@gmail.com,Minneapolis,MN,2024-06-18,(531) 920-5794,"$3,005.90"
+137,Reza,Rodriguez,rezarodriguez@yahoo.com,Portland,OR,2025-02-25,(453) 979-7434,$955.14
+138,Mei,Santos,meisantos@outlook.com,Las Vegas,NV,2024-03-18,535.795.1040,$344.13
+139,Ivan,Petrov,ivanpetrov@hotmail.com,Austin,TX,2025-07-01,333-779-8951,"$2,672.64"
+140,Aisha,Rodriguez,aisharodriguez@gmail.com,Salt Lake City,UT,2024-01-17,865.509.3604,$344.82
+141,Hassan,Rossi,hassanrossi@outlook.com,Houston,TX,2025-01-15,(920) 297-1017,"$2,086.00"
+142,Felix,Haas,felixhaas@hotmail.com,Los Angeles,CA,2024-01-09,(948) 304-2690,$497.21
+143,Paul, Kim,paulkim@hotmail.com,Seattle,WA,2024-03-11,621.830.8248,$369.62
+144,Anaya,Baker,anayabaker@outlook.com,Raleigh,NC,2024-12-25,822.491.1439,"$1,069.74"
+145,Felix,Yamada,felixyamada@yahoo.com,Phoenix,AZ,2025-02-05,2727401197,$479.30
+146,Iris,Wang,iris.wang@gmail.com,Charlotte,nc,2025-07-13,(261) 607-9300,"$2,689.54"
+147,Owen,Meyer,owenmeyer@gmail.com,Houston,TX,2025-07-03,(534) 600-2083,"$3,337.93"
+148,Ethan,Okafor,ethanokafor@gmail.com,Orlando,FL,2024-03-29,212-924-3248,"$3,336.50"
+149,Felix,Weber,felix.weber@gmail.com,Tampa,FL,2024-06-19,(469) 929-2262,$212.93
+150,Iris,Novak,iris.novak@gmail.com,Charlotte,nc,2024-06-10,(212) 450-1753,$542.29
+151,Aisha,Park,aisha.park@outlook.com,Detroit,MI,2024-08-17,253.383.4656,"$3,340.20"
+152,Sarah,Ibrahim,,Boston,MA,2024-11-14,(837) 448-8600,"$3,492.30"
+153, Paul,Nguyen,paulnguyen@outlook.com,Orlando,FL,2024-06-03,201.977.7164,$381.74
+154,Felix,Cohen,felix.cohen@outlook.com,,MI,2025-05-18,(622) 917-7102,"$2,041.08"
+155,Tara,Kim,tara.kim@yahoo.com,Columbus,OH,2024-03-17,(602) 917-6345,$279.91
+156,Chloe,Kim,chloekim@gmail.com,Dallas,TX,2024-06-08,(674) 471-2964,"$1,078.67"
+157,Kofi,Yamada,kofiyamada@yahoo.com,San Jose,California,2024-08-08,378.231.7625,"$1,934.42"
+158,Nina,Ibrahim,nina.ibrahim@yahoo.com,Dallas,TX,2024-05-23,8602865240,"$3,490.12"
+159,Chloe,Haas,chloehaas@gmail.com,Portland,OR,2024-04-04,(941) 604-9128,$621.37
+160,Marcus,Haddad,marcushaddad@yahoo.com,Chicago,IL,2024-10-13,(262) 289-5583,"$2,256.43"
+161,Felix,Cohen,felixcohen@hotmail.com,San Diego,CA,2025-01-26,384-226-6224,
+162,Paul,Murphy,paul.murphy@yahoo.com,Sacramento,CA,2025-04-28,954-257-4594,"$1,371.71"
+163,Omar,Haddad,omarhaddad@gmail.com,Orlando,FL,2025-08-29,776-392-9064,$152.11
+164,David, Sharma,david.sharma@yahoo.com,Miami,FL,2024-01-21,(531) 260-1359,$512.95
+165,Tom,Weber,tomweber@gmail.com,Charlotte,NC,2024-03-15,647-854-8982,"$3,391.23"
+166,Gwen,Cruz,gwen.cruz@outlook.com,Nashville,tn,2024-08-16,(786) 600-1530,"$2,834.65"
+167,Dmitri,Sharma,dmitri.sharma@outlook.com,Dallas,TX,2025-05-23,(886) 854-6500,$888.40
+168,Sarah,Petrov,sarah.petrov@hotmail.com,Tampa,FL,2024-04-20,759.584.2661,"$2,031.63"
+169,Anaya,Sharma,anayasharma@outlook.com,Spokane,WA,2025-04-07,584-364-2228,$344.00
+170,Rosa,Cruz,rosa.cruz@hotmail.com,Philadelphia,PA,2024-02-01,(619) 913-9849,$846.67
+171,David, Meyer,david.meyer@hotmail.com,Providence,RI,2024-06-06,(283) 684-2892,"$1,722.06"
+172,Lucia,Rossi,luciarossi@yahoo.com,,TX,2025-07-11,(475) 777-2009,$356.53
+173,Lucia,Petrov,luciapetrov@hotmail.com,Detroit,MI,2025-08-26,(441) 687-5896,"$2,505.78"
+174,Tara,Lund,tara.lund@yahoo.com,Seattle,WA,2024-05-03,8996454308,"$2,922.70"
+175,Sofia,Diallo,sofiadiallo@outlook.com,Austin,TX,2024-03-30,838-801-9561,$540.76
+176,Iris,Vargas,irisvargas@outlook.com,Dallas,TX,2024-04-18,(684) 238-3821,"$2,138.12"
+177,Gwen,Meyer,gwenmeyer@hotmail.com,San Jose, CA ,2025-02-09,510.518.5593,"$2,403.29"
+178,Priya,Kim,priya.kim@gmail.com,New York,NY,2025-03-29,696.977.9462,"$1,813.14"
+179,Lena,Johnson,lena.johnson@gmail.com,New York,NY,2025-06-02,(455) 233-8478,$712.90
+180,Hassan,Ibrahim,hassan.ibrahim@hotmail.com,Columbus,OH,2024-05-06,552-367-5237,"$1,012.04"
+181,Ruby,Okafor,rubyokafor@yahoo.com,Spokane,WA,2025-08-08,(985) 898-1145,$622.74
+182,Maria,Sharma,mariasharma@outlook.com,Tampa,FL,2025-09-14,423-677-5950,"$1,402.09"
+183,Nina,Gomez,ninagomez@gmail.com,Charlotte,NC,2025-07-28,(483) 467-5895,$856.25
+184,David,Yamada,davidyamada@outlook.com,Columbus,OH,2024-11-23,(797) 925-4111,"$2,408.39"
+185,Hana,Flores,hanaflores@yahoo.com,Nashville,TN,2025-06-03,7729813999,"$2,297.43"
+186,Priya,Petrov,priyapetrov@outlook.com,Miami,FL,2024-11-10,(797) 794-2166,$436.96
+187,Reza,Santos,rezasantos@yahoo.com,New York,NY,2025-02-27,668.346.6183,$301.22
+188, Jack,Haddad,jackhaddad@yahoo.com,Buffalo,NY,2024-02-29,290-332-8105,"$3,379.34"
+189,Ruby,Gomez,,San Jose,CA,2025-06-30,(892) 204-5076,"$1,106.08"
+190,Nina,Santos,ninasantos@hotmail.com,New York,NY,2024-06-20,9033376615,"$2,630.40"
+191,Lena,Meyer,lenameyer@gmail.com,San Diego,CA,2024-08-21,238-584-5190,"$2,086.86"
+192,David,Rodriguez,davidrodriguez@outlook.com,San Diego,CA,2024-02-19,209-508-7895,$959.52
+193,Rosa,Kim,rosakim@gmail.com,Detroit,MI,2024-04-17,735-406-6864,$157.13
+194,Andre, Brooks,andrebrooks@gmail.com,Philadelphia,PA,2024-12-04,7232762659,"$1,609.49"
+195,Yuki,Rossi,,Salt Lake City,UT,2024-02-21,956.318.2556,$53.66
+196,Grace,Novak,gracenovak@gmail.com,Atlanta,GA,2025-01-01,667-478-7319,"$1,487.65"
+197,Lena,Baker,lenabaker@hotmail.com,Portland,OR,2024-03-01,567.826.1472,"$2,550.93"
+198,Grace,Flores,grace.flores@outlook.com,Providence,RI,2024-04-25,7909414669,"$1,197.29"
+199,Felix,Cruz,felix.cruz@hotmail.com,Dallas,TX,2025-03-19,255-211-3571,"$1,745.51"
+200,Lena,Johnson,lenajohnson@yahoo.com,Providence,RI,2024-11-24,(670) 654-8341,"$1,119.89"
+201,Andre,Chen,,Dallas,TX,2025-02-17,511-720-4389,"$1,206.17"
+202,David,Sharma,davidsharma@outlook.com,Salt Lake City,UT,2024-12-05,202.549.6818,"$1,036.10"
+203,Felix,Ali,felix.ali@hotmail.com,Dallas,TX,2024-02-16,602.420.8488,"$1,196.01"
+204,Anaya,Wang,anayawang@yahoo.com,san jose,CA,2025-08-25,6437998912,"$3,187.43"
+205,Gwen,Vargas,gwenvargas@outlook.com,Denver,CO,2024-05-11,(909) 980-5067,"$3,397.31"
+206,Zara,Kim,zarakim@outlook.com,Portland,OR,2025-02-26,414-839-5760,$481.70
+207,Kofi,Haddad,kofihaddad@hotmail.com,Buffalo,NY,2024-04-28,(632) 213-9564,$204.67
+208,David,Nguyen,davidnguyen@gmail.com,Chicago,IL,2024-06-13,567-663-2679,"$1,975.36"
+209,Priya,Park,priyapark@gmail.com,Raleigh,NC,2024-08-31,(520) 765-1881,"$2,179.55"
+210,Paul,Haas,paulhaas@yahoo.com,Miami,FL,2025-01-11,(377) 952-9418,pending
+211,Liam,Park,,Tampa,FL,2024-05-13,,"$2,097.14"
+212,Paul,Cruz,paulcruz@outlook.com,New York,NY,2025-05-17,717-363-7814,"$1,235.92"
+213,Marcus,Adams,marcusadams@hotmail.com,Atlanta,GA,2025-01-04,,"$1,570.92"
+214,Blake,Cruz,blakecruz@gmail.com,Orlando,FL,2024-02-10,,"$2,701.32"
+215,Tara,Singh,tara.singh@gmail.com,Las Vegas,NV,2025-05-13,(207) 841-2072,$761.85
+216,Reza,Reyes,rezareyes@hotmail.com,Dallas,TX,2024-07-29,(224) 670-6434,$639.41
+217,Sofia,Park,sofiapark@hotmail.com,Austin,TX,2025-08-11,321-747-1096,"$2,650.74"
+218,Cole,Patel,colepatel@outlook.com,Austin,TX,2025-01-01,(604) 876-1504,$494.61
+219,Leo,Costa,leo.costa@outlook.com,Boston,MA,2024-05-27,205-786-7456,"$1,080.33"
+220,Milo,Petrov,milo.petrov@yahoo.com,Tucson,AZ,2025-02-26,887.780.1891,"$3,480.21"
+221,Ivan,Park,ivanpark@hotmail.com,Austin,TX,2024-10-24,4918342143,"$1,588.25"
+222,Dmitri,Bauer,dmitri.bauer@yahoo.com,Seattle,WA,2025-08-02,856.646.5533,"$2,570.75"
+223,Clara,Ibrahim,claraibrahim@gmail.com,Las Vegas,NV,2025-01-02,469-951-2252,"$2,976.56"
+224,Hana,Chen,hanachen@hotmail.com,Columbus,OH,2025-08-27,(803) 950-5767,$335.13
+225,Hassan,Singh,hassansingh@yahoo.com,Los Angeles,CA,2024-09-01,779-875-3395,"$1,268.61"
+226,Priya,Dubois,priyadubois@outlook.com,Miami,FL,2024-03-05,,"$1,147.77"
+227,Kofi,Weber,kofiweber@hotmail.com,Chicago,IL,2024-09-26,457-585-4651,"$3,039.66"
+228,Andre,Flores,andre.flores@outlook.com,Los Angeles,CA,2025-05-28,(321) 876-4773,$414.42
+229,Reza,Flores,reza.flores@yahoo.com,Philadelphia,PA,2024-08-03,(724) 240-3406,$646.53
+230,Leo,Yamada,leoyamada@hotmail.com,San Diego,CA,2024-10-17,796-985-3979,$603.67
+231,Reza,Adams,reza.adams@gmail.com,Salt Lake City,UT,2025-09-02,(629) 353-2577,"$2,107.35"
+232,Nadia,Singh,nadiasingh@gmail.com,San Antonio,TX,2024-04-05,(244) 914-9680,"$1,697.79"
+233,Paul,Santos,paulsantos@gmail.com,Nashville,TN,2025-08-26,(285) 490-9908,"$2,487.84"
+234, Maria,Lund,marialund@outlook.com,San Antonio,TX,2025-06-16,(459) 467-9783,$978.95
+235,Reza,Meyer,rezameyer@hotmail.com,Tucson,AZ,2025-02-27,607.953.3262,"$2,622.39"
+236,Zara,Novak,zara.novak@gmail.com,Dallas,TX,2024-08-07,(348) 682-8133,"$1,310.51"
+237,Rosa,Patel,rosa.patel@gmail.com,Raleigh,NC,2025-02-14,(872) 730-5685,"$1,796.71"
+238,Gwen,Sharma,gwensharma@gmail.com,Spokane,WA,2024-02-06,(800) 405-9482,"$3,218.74"
+239,Sean,Tanaka,seantanaka@yahoo.com,Nashville,TN,2024-12-21,616-718-2744,"$1,203.08"
+240,Tom,Singh,tomsingh@hotmail.com,Tampa,FL,2025-07-04,669.897.8548,"$1,697.26"
+241,Sofia,Johnson,sofiajohnson@outlook.com,Raleigh,NC,2024-08-13,494-295-7536,$284.58
+242,Omar,Flores,omarflores@yahoo.com,Buffalo,NY,2024-12-28,(471) 411-4755,"$2,172.72"
+243,Diego,Rodriguez,diegorodriguez@gmail.com,San Antonio,TX,2024-03-21,(788) 481-9041,"$1,798.75"
+244,Leo,Sharma,leosharma@gmail.com,Portland,OR,2024-02-25,(668) 323-9490,$61.13
+245,Marcus,Santos,marcus.santos@outlook.com,Dallas,TX,2024-11-29,(388) 710-7945,"$1,315.64"
+246,Leo,Murphy,leomurphy@gmail.com,Las Vegas,NV,2024-07-03,590.400.3389,"$1,665.99"
+247,Maria,Haddad,mariahaddad@outlook.com,Detroit,MI,2025-05-26,(607) 301-3676,"$1,678.36"
+248,Hana,Rodriguez,hanarodriguez@outlook.com,las vegas,NV,2024-12-08,(820) 403-9821,"$1,255.78"
+249,Reza,Singh,reza.singh@yahoo.com,Providence,RI,2025-04-02,827.785.7631,$583.76
+250,Priya,Diallo,priyadiallo@hotmail.com,Buffalo,NY,2024-10-25,(371) 388-1378,$895.73
+251,Milo,Osei,miloosei@hotmail.com,Tucson,AZ,2024-06-19,285-306-5300,"$3,261.93"
+252,Ruby,Bauer,ruby.bauer@yahoo.com,,FL,2024-09-10,6876789856,$490.20
+253,Gwen,Costa,gwencosta@hotmail.com,Denver,CO,2025-08-28,693.752.4721,"$1,292.93"
+254, Sofia,Morales,sofiamorales@outlook.com,New York,ny,2024-01-11,(973) 688-5908,"$1,039.37"
+255,Priya,Gomez,priyagomez@yahoo.com,Charlotte,NC,2024-07-12,469-281-7917,"$2,803.86"
+256,Dmitri,Murphy,dmitri.murphy@yahoo.com,Boston,MA,2025-06-28,(478) 917-9060,
+257,David,Costa,davidcosta@hotmail.com,san diego,CA,2024-07-09,,"$1,482.45"
+258,Andre,Ali,andreali@gmail.com,Salt Lake City,UT,2024-02-02,396.456.7251,"$2,693.15"
+259,Ethan,Santos,ethansantos@gmail.com,Las Vegas,NV,2024-09-10,519-530-3598,pending
+260,Sean,Weber,seanweber@gmail.com,San Antonio,TX,2024-09-16,532-215-3742,"$1,397.41"
+261,Ethan,Gomez,ethan.gomez@outlook.com,San Jose,CA,2025-08-18,(546) 977-1983,"$2,460.62"
+262,Nina,Kim,ninakim@outlook.com,Providence, RI ,2024-08-26,941.337.5107,"$1,542.50"
+263,Yuki,Costa,yukicosta@hotmail.com,Providence,RI,2024-07-13,(364) 270-9702,$936.46
+264,Hassan,Ibrahim,,Los Angeles,CA,2025-06-02,938.264.9830,"$2,397.62"
+265,Paul,Park,paulpark@gmail.com,Seattle,Washington,2025-09-19,(382) 232-4310,$130.72
+266,Blake,Santos,,Providence,RI,2025-06-22,,"$2,302.01"
+267,Kwame,Ibrahim,kwameibrahim@outlook.com,Sacramento,CA,2025-01-04,(951) 272-5979,"$1,827.81"
+268,Nina,Sharma,ninasharma@yahoo.com,Raleigh,NC,2024-07-13,853-790-6864,"$1,506.22"
+269,Nina,Novak,ninanovak@hotmail.com,Denver,CO,2025-07-17,580.622.8054,$857.71
+270,Nadia,Brooks,nadiabrooks@hotmail.com,raleigh, NC ,2025-07-17,2167303213,"$1,065.16"
+271,Priya,Brooks,priya.brooks@yahoo.com,,NY,2024-01-23,(575) 796-5093,$339.83
+272,Leo,Lund,leolund@gmail.com,Tucson, AZ ,2024-03-20,5902801916,"$3,081.68"
+273,Owen,Wang,owen.wang@hotmail.com,San Antonio,Texas,2024-08-20,353-534-9231,"$2,364.25"
+274,Leo,Haas,leo.haas@outlook.com,Houston,TX,2024-08-15,468-287-7529,$473.71
+275,Grace,Flores,grace.flores@yahoo.com,Phoenix,AZ,2025-05-14,789-291-2843,"$1,232.11"
+276,Amara,Petrov,amarapetrov@hotmail.com,San Diego,California,2024-11-08,(404) 901-7124,$318.63
+277,Milo,Okafor,milookafor@gmail.com,Orlando,FL,2025-09-27,223-539-4424,"$1,921.56"
+278,Anaya,Rossi,anayarossi@gmail.com,Philadelphia,PA,2025-09-29,,"$1,008.37"
+279,Gwen,Cruz,gwencruz@outlook.com,Chicago,IL,2024-02-24,(219) 499-7332,"$3,418.61"
+280,Nina,Diallo,ninadiallo@hotmail.com,Providence, RI ,2025-09-03,(742) 512-6465,$83.94
+281,Reza,Petrov,reza.petrov@outlook.com,Nashville,TN,2025-10-02,(230) 768-5590,"$1,387.11"
+282,Grace,Osei,graceosei@yahoo.com,Raleigh,NC,2025-06-17,819-537-8359,$502.25
+283,Nadia,Nguyen,nadia.nguyen@hotmail.com,Portland,OR,2024-11-12,2697709732,"$1,125.24"
+284,Diego,Chen,diego.chen@outlook.com,Buffalo,NY,2025-02-27,980-826-5372,"$2,095.34"
+285,Priya,Chen,priyachen@hotmail.com,Nashville,TN,2024-03-22,(685) 340-3683,pending
+286,Anaya,Gomez,anaya.gomez@yahoo.com,Chicago,IL,2025-02-26,831.701.6323,"$1,507.89"
+287,Paul,Patel,paulpatel@gmail.com,Raleigh,NC,2024-11-16,(451) 731-9812,"$1,960.80"
+288,Felix,Okafor,felixokafor@outlook.com,Phoenix,AZ,2024-10-25,(906) 729-3330,$334.73
+289,Tara,Baker,tarabaker@hotmail.com,Denver,CO,2025-08-22,(929) 406-8449,"$2,277.05"
+290,Kofi,Novak,kofinovak@hotmail.com,San Antonio,TX,2024-04-03,(587) 763-7235,"$1,186.47"
+291,Lucia,Morales,luciamorales@outlook.com,Spokane,WA,2024-05-28,(320) 334-4323,$62.48
+292,Andre,Dubois,andredubois@hotmail.com,Los Angeles,CA,2025-09-14,450-760-5556,"$2,891.88"
+293,David,Haddad,davidhaddad@outlook.com,Seattle,Washington,2024-02-26,382-365-5659,"$2,090.49"
+294,Sean,Haddad,seanhaddad@outlook.com,Salt Lake City,UT,2025-08-15,(763) 266-5797,"$3,010.74"
+295,Jack,Weber,jackweber@gmail.com,Detroit,MI,2025-06-21,923-494-7996,"$1,848.36"
+296,Dmitri,Petrov,dmitri.petrov@hotmail.com,Portland,OR,2025-09-21,(398) 201-2936,$430.38
+297,Marcus,Cruz,marcus.cruz@yahoo.com,Detroit,MI,2025-02-27,269-515-5919,$41.34
+298,Reza,Adams,,Atlanta,GA,2025-02-09,888-690-8774,"$1,695.60"
+299,Hana,Ibrahim,hanaibrahim@outlook.com,Atlanta,GA,2025-04-18,413-791-6434,"$1,250.51"
+300,Diego,Murphy,diego.murphy@hotmail.com,San Diego,CA,2024-12-13,(922) 522-1518,"$3,072.13"
+301,Hassan,Haas,hassan.haas@gmail.com,New York,NY,2024-08-09,,"$1,760.19"
+302,Chloe,Adams,chloeadams@gmail.com,Philadelphia,PA,2025-06-20,(670) 596-9558,$173.22
+303,Rosa,Osei,rosa.osei@outlook.com,Atlanta,GA,2025-04-23,(528) 405-4154,"$2,709.30"
+304,Lucia,Baker,lucia.baker@gmail.com,Chicago,IL,2024-06-01,(921) 490-5011,"$3,125.01"
+305,Nadia ,Haas,nadia.haas@hotmail.com,Sacramento,CA,2024-05-13,806-844-8304,"$2,864.70"
+306,Kofi,Costa,kofi.costa@hotmail.com,Houston,TX,2025-04-21,6766814796,"$3,137.04"
+307,Sofia,Ali,sofiaali@outlook.com,Columbus,OH,2024-07-06,(690) 672-3798,"$2,019.88"
+308,Tara,Rodriguez,tararodriguez@hotmail.com,Columbus,OH,2024-04-19,(362) 693-7288,"$2,435.33"
+309,Owen,Reyes,owen.reyes@hotmail.com,Atlanta,GA,2025-07-11,6553806046,$398.43
+310,Rosa,Santos,rosasantos@yahoo.com,Buffalo,NY,2025-05-21,,$539.27
+311,Nadia,Tanaka,nadiatanaka@outlook.com,Raleigh,NC,2025-09-22,6459356640,"$2,147.99"
+312,Tara,Meyer,tarameyer@gmail.com,Portland,OR,2024-10-28,(488) 231-4854,"$2,195.75"
+313,Kofi,Santos,kofi.santos@yahoo.com,Columbus,OH,2025-01-25,6273575726,$487.29
+314,Sarah,Chen,sarahchen@yahoo.com,Seattle,WA,2025-05-13,912-818-7974,"$1,495.95"
+315,Zara,Santos,zarasantos@yahoo.com,Nashville,TN,2024-08-19,575-234-1620,$413.81
+316,Clara,Osei,claraosei@hotmail.com,Seattle,WA,2025-06-23,683-845-2279,"$2,037.11"
+317,Dmitri,Okafor,dmitriokafor@hotmail.com,Atlanta,GA,2025-07-01,(501) 496-3744,"$2,628.00"
+318,Vera,Lund,veralund@outlook.com,Tampa,FL,2024-03-03,(717) 278-5552,$977.76
+319,Sofia,Gomez,sofiagomez@hotmail.com,San Antonio,TX,2025-09-10,696.385.9640,$313.72
+320,Diego,Yamada,diegoyamada@hotmail.com,Seattle,WA,2025-05-22,553-255-5331,$603.25
+321,Leo,Flores,leoflores@hotmail.com,New York,NY,2025-05-02,6452125731,"$2,381.16"
+322,Felix,Patel,felixpatel@outlook.com,Dallas,TX,2025-06-28,798-600-8554,"$2,575.41"
+323,Cole, Nguyen,,Atlanta,GA,2024-07-03,(901) 656-6759,$691.92
+324,James,Cruz,jamescruz@gmail.com,Houston,TX,2024-02-28,584.872.4027,$901.61
+325,Ivan,Johnson,ivanjohnson@outlook.com,Salt Lake City,UT,2024-10-10,5915976450,"$2,848.55"
+326,Omar,Haas,omar.haas@hotmail.com,Austin,TX,2025-05-18,858-308-8234,$273.76
+327,Iris,Rossi,irisrossi@gmail.com,Las Vegas,NV,2024-01-20,600-788-1060,"$1,727.56"
+328,Owen,Meyer,owen.meyer@hotmail.com,Austin,TX,2025-07-07,(898) 510-7563,"$2,271.82"
+329,Hassan,Costa,hassan.costa@yahoo.com,Atlanta,GA,2024-03-23,506.912.7391,"$1,270.23"
+330,Kwame,Haas ,kwamehaas@yahoo.com,Phoenix,AZ,2024-05-23,7117468361,
+331,Jack,Okafor,jackokafor@hotmail.com,Atlanta,GA,2024-02-13,438-273-1604,$86.34
+332, Dmitri,Patel,dmitripatel@gmail.com,Orlando,FL,2024-05-13,308-316-9145,$239.62
+333,Chloe,Reyes,chloereyes@yahoo.com,Atlanta,GA,2025-02-15,(807) 377-6496,"$2,656.27"
+334,Lena,Ali,lena.ali@hotmail.com,spokane,WA,2025-03-25,,$330.21
+335,Blake,Vargas,blake.vargas@yahoo.com,Boston,MA,2025-03-02,444-378-1616,"$2,149.93"
+336, Kwame,Bauer,kwamebauer@gmail.com,Nashville,TN,2025-03-04,(424) 675-4409,"$2,792.21"
+337,Reza,Flores,rezaflores@outlook.com,Providence,RI,2024-06-29,(976) 664-1709,"$1,890.02"
+338,Lena,Chen,lenachen@outlook.com,Providence,RI,2025-06-11,(312) 533-4731,"$3,047.20"
+339,Ruby,Sharma,rubysharma@yahoo.com,Austin,TX,2025-04-27,9373986875,$462.70
+340,Gwen,Lund,gwenlund@yahoo.com,Sacramento,CA,2024-10-14,853-826-3784,$819.36
+341,Mei,Weber,meiweber@hotmail.com,Providence,RI,2024-08-09,4278053440,"$1,473.85"
+342,Aisha,Patel,aishapatel@gmail.com,Philadelphia,PA,2025-05-31,9099497662,"$1,049.35"
+343,Blake,Osei,blakeosei@gmail.com,San Diego,CA,2025-05-06,389-579-8607,
+344,Hana,Johnson,hanajohnson@yahoo.com,Raleigh,NC,2024-12-06,256.727.6963,"$1,292.26"
+345,Dmitri,Patel,dmitri.patel@yahoo.com,Charlotte,NC,2025-01-10,689-955-4437,"$1,135.21"
+346,Liam,Singh,liamsingh@gmail.com,Minneapolis,MN,2024-10-10,499-662-7031,"$2,834.61"
+347,Sarah,Nguyen,sarah.nguyen@gmail.com,Salt Lake City,UT,2024-03-30,3544099530,
+348,Mei,Costa,mei.costa@outlook.com,Portland,OR,2025-04-30,(732) 860-6503,"$2,268.26"
+349,Amara,Dubois,amaradubois@yahoo.com,Las Vegas,NV,2025-04-13,(248) 351-6785,"$2,172.83"
+350,Lena,Costa,lena.costa@yahoo.com,Boston,MA,2024-07-05,(329) 651-5266,"$2,480.83"
+351,Lucia,Diallo,lucia.diallo@outlook.com,Nashville,TN,2024-05-31,(348) 669-6246,"$1,920.59"
+352,Tara,Adams,taraadams@yahoo.com,Boston,MA,2025-04-30,3159498847,"$1,937.34"
+353,Noah,Chen,noahchen@gmail.com,Columbus,OH,2025-09-24,(985) 484-4206,"$1,570.19"
+354,Lucia,Osei,luciaosei@gmail.com,Columbus,OH,2024-07-18,(578) 595-7108,"$1,092.14"
+355,Zara,Park,zarapark@hotmail.com,Houston,TX,2024-08-08,946.624.3286,$519.86
+356,Noah,Flores,noahflores@gmail.com,Atlanta,GA,2024-03-08,(673) 927-3243,"$1,027.33"
+357,Andre,Patel,andre.patel@gmail.com,New York,NY,2025-08-22,851-683-3034,"$1,471.71"
+358,Andre,Cohen,andrecohen@outlook.com,San Diego,CA,2024-05-02,(902) 687-2959,$81.06
+359,Sofia,Novak,sofia.novak@yahoo.com,Sacramento,CA,2024-05-29,(564) 249-5749,$287.36
+360,Chloe,Haddad,chloehaddad@outlook.com,Dallas,TX,2025-09-05,(793) 560-3354,"$1,318.09"
+361,Andre,Wang,andrewang@yahoo.com,Atlanta,GA,2024-06-15,(744) 929-2867,$425.65
+362,Grace,Chen,grace.chen@outlook.com,Philadelphia, PA ,2024-12-22,427-331-3332,$750.25
+363,Kwame ,Reyes,kwame.reyes@yahoo.com,San Antonio ,TX,2024-03-20,(680) 321-5145,$55.75
+364,Nina,Baker,nina.baker@gmail.com,Tucson,AZ,2025-08-24,556.560.3630,"$2,153.09"
+365,Tara,Lund,taralund@yahoo.com,Austin,TX,2024-04-11,,"$3,236.33"
+366,Tara,Flores,taraflores@outlook.com,Charlotte,NC,2025-08-26,(979) 521-3025,"$1,745.44"
+367,Hassan,Tanaka,hassantanaka@outlook.com,San Jose,CA,2024-03-25,497.638.4093,"$2,812.48"
+368,Reza,Ali,rezaali@hotmail.com,Denver,CO,2024-01-14,610-911-2666,$607.16
+369,Hassan,Nguyen,hassannguyen@hotmail.com,Atlanta,GA,2024-07-24,(807) 479-7557,"$3,326.48"
+370,Andre,Singh,andre.singh@hotmail.com,Chicago,IL,2024-05-30,254-269-9161,"$1,351.56"
+371,Reza,Diallo,rezadiallo@hotmail.com,Seattle,WA,2024-11-06,467.755.6629,$81.49
+372,Anaya,Patel,anaya.patel@hotmail.com,Minneapolis ,MN,2024-05-01,(510) 923-3689,"$2,510.72"
+373,Andre,Baker,andrebaker@yahoo.com,Providence,RI,2025-07-21,586-831-6779,$233.76
+374,Cole,Patel,,Portland,OR,2025-01-10,(553) 565-7749,$881.70
+375,Blake,Bauer,blake.bauer@outlook.com,Houston,TX,2024-03-08,631-473-1334,"$3,450.46"
+376,Ruby,Lund,rubylund@yahoo.com,Raleigh,NC,2024-11-26,(370) 829-5907,"$1,749.39"
+377,Sarah,Costa,sarahcosta@yahoo.com,Tucson,AZ,2024-10-21,(297) 806-6518,"$1,868.10"
+378,Owen,Brooks,owenbrooks@hotmail.com,Nashville,TN,2024-03-19,839-727-8425,"$3,085.52"
+379,Hana,Weber,hanaweber@hotmail.com,Denver,CO,2025-08-13,987-644-1981,$534.15
+380,Diego,Bauer,diegobauer@yahoo.com,Minneapolis,MN,2025-02-24,(903) 815-4868,$687.87
+381,Ethan,Bauer,ethan.bauer@gmail.com,Salt Lake City,UT,2025-05-12,484-874-3883,pending
+382,Vera,Dubois,veradubois@gmail.com,San Diego,CA,2024-02-26,(606) 941-3302,"$1,760.86"
+383,Tom,Weber,tomweber@outlook.com,Tampa,FL,2025-05-23,(961) 441-7928,$765.10
+384,Liam,Haas,liamhaas@gmail.com,Detroit,MI,2024-09-17,(484) 348-6947,"$1,092.44"
+385,Blake,Yamada,blakeyamada@hotmail.com,San Jose,CA,2024-02-25,901.324.9763,"$1,371.88"
+386,Leo,Rossi,leorossi@yahoo.com,New York,NY,2024-04-02,616.234.5489,"$3,292.92"
+387,Clara,Wang,clarawang@outlook.com,Atlanta,GA,2025-03-08,(760) 955-6353,
+388, David,Haddad,david.haddad@gmail.com,Las Vegas,NV,2024-05-19,864.981.3131,"$2,778.40"
+389,Amara,Haas,amara.haas@outlook.com,Philadelphia,PA,2024-05-16,(586) 784-4677,
+390,Sean,Cruz,sean.cruz@yahoo.com,Miami,FL,2024-04-01,2915763787,"$2,520.67"
+391,Owen,Ibrahim,owenibrahim@outlook.com,Providence,RI,2024-05-01,4118144531,"$2,376.62"
+392,Mei ,Haddad,mei.haddad@hotmail.com,Detroit,MI,2024-05-29,210.680.3182,"$1,403.49"
+393,Marcus,Santos,marcus.santos@outlook.com,Minneapolis,MN,2025-09-03,(886) 812-1745,"$1,345.66"
+394,Leo,Ali,leoali@hotmail.com,Portland,OR,2025-07-26,(743) 643-3323,"$3,425.24"
+395,Andre,Murphy,andremurphy@outlook.com,Charlotte,NC,2025-03-16,703-982-3478,"$2,235.55"
+396,Zara,Okafor,zaraokafor@yahoo.com,Phoenix,AZ,2024-06-01,(706) 241-8233,"$1,708.49"
+397,Andre,Baker,andrebaker@yahoo.com,Seattle,WA,2024-05-06,799-417-1067,"$1,469.14"
+398,Sarah,Cohen ,sarahcohen@gmail.com,Providence,RI,2024-04-06,(531) 357-1473,"$2,315.20"
+399,Ivan,Murphy,ivanmurphy@outlook.com,Los Angeles,CA,2024-12-03,332.416.1797,"$2,797.55"
+400,Milo,Johnson,milo.johnson@hotmail.com,Raleigh ,NC,2024-04-04,(612) 491-3525,"$1,524.61"
+219,Leo,Costa,leo.costa@outlook.com,Boston,MA,2024-05-27,205-786-7456,"$1,080.33"
+159,Chloe,Haas,chloehaas@gmail.com,Portland,OR,2024-04-04,(941) 604-9128,$621.37
+309,Owen,Reyes,owen.reyes@hotmail.com,Atlanta,GA,2025-07-11,6553806046,$398.43
+388, David,Haddad,david.haddad@gmail.com,Las Vegas,NV,2024-05-19,864.981.3131,"$2,778.40"
+96,Yuki,Patel,yukipatel@outlook.com,Los Angeles,CA,2024-11-01,(337) 716-8668,"$1,170.78"
+199,Felix,Cruz,felix.cruz@hotmail.com,Dallas,TX,2025-03-19,255-211-3571,"$1,745.51"
+217,Sofia,Park,sofiapark@hotmail.com,Austin,TX,2025-08-11,321-747-1096,"$2,650.74"
+366,Tara,Flores,taraflores@outlook.com,Charlotte,NC,2025-08-26,(979) 521-3025,"$1,745.44"
